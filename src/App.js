@@ -1,8 +1,8 @@
 import React from 'react';
 import { Route, Switch } from "react-router-dom";
 import './App.css';
-import Homepage from './screens/homepage/Homepage';
-import ShopPage from './screens/shop/Shop';
+import Homepage from 'screens/Homepage';
+import ShopPage from 'screens/Shop';
 
 function App() {
   return (
